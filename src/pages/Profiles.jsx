@@ -28,7 +28,7 @@ const Profiles = () => {
     const storedName = localStorage.getItem("username");
     if (storedName) setUsername(storedName);
 
-    audioRef.current = new Audio("src/retro.mp3");
+    audioRef.current = new Audio("/retro.mp3");
     audioRef.current.loop = true;
     audioRef.current.volume = 0.5;
 
