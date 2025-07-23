@@ -7,6 +7,7 @@ import mira from '../assets/mira.jpg';
 import myr from '../assets/myr.jpg';
 import noah from '../assets/leo.jpg';
 import jaq from '../assets/jaq.jpg';
+import retroSound from '../assets/retro.mp3';
 
 const profiles = [
   { id: 1, name: "Deborah", image: deb, status: "available", route: "/deb" },
@@ -28,7 +29,7 @@ const Profiles = () => {
     const storedName = localStorage.getItem("username");
     if (storedName) setUsername(storedName);
 
-    audioRef.current = new Audio("src/retro.mp3");
+    audioRef.current = new Audio(retroSound);
     audioRef.current.loop = true;
     audioRef.current.volume = 0.5;
 
