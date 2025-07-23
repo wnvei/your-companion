@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 
+const bgDeb = '/bgDeb.jpg'; 
+const debVideo = '/deb.mp4';
+const debGlitch = '/DebGlitch.mp4';
+
 const Deb = () => {
   const profileName = 'Deb';
   const phoneRedirect = '/phone';
-  const bgDeb = '/bgDeb.jpg'; 
-  const debVideo = '/deb.mp4';
-  const debGlitch = '/DebGlitch.mp4';
 
   const responseTree = {
     "hi": { reply: "hey ,miss me ?", next: ["how are you", "we just met"] },
