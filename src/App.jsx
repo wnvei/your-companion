@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import './App.css';
 
@@ -28,7 +28,7 @@ function App() {
   if (!isSupported) return <UnsupportedDevice />;
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/profiles" element={<Profiles />} />
@@ -38,7 +38,7 @@ function App() {
         <Route path="/stroll" element={<Stroll />} />
         <Route path="/mistake" element={<Mistake />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
