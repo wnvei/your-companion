@@ -1,11 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import tableBg from '../assets/table.jpg';
-import note from '../assets/note.png'
 import { motion, AnimatePresence } from 'framer-motion'; 
-import windAudio from '../assets/wind.mp3';
+
 
 const dialSound = new Audio('https://actions.google.com/sounds/v1/alarms/beep_short.ogg');
+const tableBg = '/table.jpg';
+const note = '/note.png';
+const windAudio = 'wind.mp3'
 
 const Phone = () => {
   const [input, setInput] = useState('');

@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import blue from '../assets/blue.jpg';
-import deb from '../assets/deb.jpg';
-import leo from '../assets/noah.jpg';
-import mira from '../assets/mira.jpg';
-import myr from '../assets/myr.jpg';
-import noah from '../assets/leo.jpg';
-import jaq from '../assets/jaq.jpg';
+const blue = '/blue.jpg';
+const deb = '/deb.jpg';
+const leo = '/noah.jpg'; 
+const mira = '/mira.jpg';
+const myr = '/myr.jpg';
+const noah = '/leo.jpg';
+const jaq = '/jaq.jpg';
 
 const profiles = [
   { id: 1, name: "Deborah", image: deb, status: "available", route: "/deb" },

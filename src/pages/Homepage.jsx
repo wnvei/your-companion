@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom";
-import stars from '../assets/stars.jpg';
 
 const Homepage = () => {
     const [username, setUsername] = useState("");
@@ -21,7 +20,7 @@ const Homepage = () => {
   return (
     <div className="min-h-screen max-w-sceen flex flex-col items-center justify-center">
     <div className="absolute inset-0 z-0" 
-    style={{ backgroundImage: `url(${stars})`,
+    style={{ backgroundImage: `url('/stars.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         filter: 'contrast(1.1) brightness(1) blur(1px) opacity(0.5) grayscale(0.7)',

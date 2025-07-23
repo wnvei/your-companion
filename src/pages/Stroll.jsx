@@ -1,20 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import m1 from '../assets/maps/m1.jpg';
-import m2 from '../assets/maps/m2.jpg';
-import m3 from '../assets/maps/m3.jpg';
-import m4 from '../assets/maps/m4.jpg';
-import m5 from '../assets/maps/m5.jpg';
-import m6 from '../assets/maps/m6.jpg';
-import m7 from '../assets/maps/m7.jpg';
-import m8 from '../assets/maps/m8.jpg';
-import m9 from '../assets/maps/m9.jpg';
+const m1 = '/maps/m1.jpg';
+const m2 = '/maps/m2.jpg';
+const m3 = '/maps/m3.jpg';
+const m4 = '/maps/m4.jpg';
+const m5 = '/maps/m5.jpg';
+const m6 = '/maps/m6.jpg';
+const m7 = '/maps/m7.jpg';
+const m8 = '/maps/m8.jpg';
+const m9 = '/maps/m9.jpg';
 
-import flowerImg from '../assets/flower.jpg';
-import gunImg from '../assets/gun.jpg';
-import gunshotMp3 from '../assets/gunshot.mp3';
-import eerieAudio from '../assets/eerie.mp3';
+const flowerImg = '/flower.jpg';
+const gunImg = '/gun.jpg';
+const gunshotMp3 = '/gunshot.mp3';
+const eerieAudio = '/eerie.mp3';
 
 const images = [m1, m2, m3, m4, m5, m6, m7, m8, m9];
 

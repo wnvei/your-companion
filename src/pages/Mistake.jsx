@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import atmosAudio from '../assets/atmos.mp3';
+const atmosAudio = '/atmos.mp3'
 
 const messages = [
   { text: 'what have you done?', delay: 0 },

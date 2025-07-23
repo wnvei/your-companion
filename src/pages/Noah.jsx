@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import bgNoah from '../assets/bgNoah.jpg';
-import noahVideo from '../assets/noah.mp4';
-import noahGlitch from '../assets/noahGlitch.mp4';
+const bgNoah = '/bgNoah.jpg';
+const noahVideo = '/noah.mp4';
+const noahGlitch = '/noahGlitch.mp4';
 
 const noahResponseTree = {
   "hi noah": {
